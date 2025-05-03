@@ -1,36 +1,36 @@
 
 .navbar {
   display: flex;
-  align-items:center; /* Centers items vertically */
-  justify-content:space-around; /* Centers items horizontally */
+  align-items:center;
+  justify-content:space-around; 
   padding: 1px;
-  height: 55px; /* Set height to ensure proper vertical alignment */
-  position: fixed; /* Fixes the navbar at the top */
-    top: 0;         /* Aligns it to the top of the page */
-    width: 100%;    /* Makes the navbar span the full width */
-    background-color: #000000; /* Background color of the navbar */
-    color: white;   /* Text color */
-    z-index: 1000;  /* Ensures the navbar is on top of other elements */
+  height: 55px; 
+  position: fixed;
+    top: 0;        
+    width: 100%;   
+    background-color: #000000; 
+    color: white;  
+    z-index: 1000;  
     box-shadow: 0 4px 6px chocolate;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 
 
-/* For WebKit Browsers (Chrome, Safari, Edge) */
+/* For WebKit Browsers */
 ::-webkit-scrollbar {
-  width: 12px; /* Width of the scrollbar */
-  height: 12px; /* Height for horizontal scrollbar */
+  width: 12px; 
+  height: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Track color */
+  background: #f1f1f1; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #888; /* Thumb color */
-  border-radius: 10px; /* Rounded edges */
-  border: 3px solid #f1f1f1; /* Adds space around thumb */
+  background-color: #888;
+  border-radius: 10px; 
+  border: 3px solid #f1f1f1; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -39,8 +39,8 @@
 
 /* For Firefox */
 * {
-  scrollbar-color: #ec8e00 #f1f1f1; /* Thumb color | Track color */
-  scrollbar-width: thin; /* Options: auto, thin, none */
+  scrollbar-color: #ec8e00 #f1f1f1;
+  scrollbar-width: thin; 
 }
 
 
