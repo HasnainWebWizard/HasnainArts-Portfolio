@@ -1,0 +1,389 @@
+
+.navbar {
+  display: flex;
+  align-items:center; /* Centers items vertically */
+  justify-content:space-around; /* Centers items horizontally */
+  padding: 1px;
+  height: 55px; /* Set height to ensure proper vertical alignment */
+  position: fixed; /* Fixes the navbar at the top */
+    top: 0;         /* Aligns it to the top of the page */
+    width: 100%;    /* Makes the navbar span the full width */
+    background-color: #000000; /* Background color of the navbar */
+    color: white;   /* Text color */
+    z-index: 1000;  /* Ensures the navbar is on top of other elements */
+    box-shadow: 0 4px 6px chocolate;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+/* For WebKit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height: 12px; /* Height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Thumb color */
+  border-radius: 10px; /* Rounded edges */
+  border: 3px solid #f1f1f1; /* Adds space around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:#ec8e00; /* Color when hovered */
+}
+
+/* For Firefox */
+* {
+  scrollbar-color: #ec8e00 #f1f1f1; /* Thumb color | Track color */
+  scrollbar-width: thin; /* Options: auto, thin, none */
+}
+
+
+/* Styling the logo */
+.logo {
+  border: 0dvipx solid #ec8e00f8; /* yellow border */
+  border-radius: 5px; /* Optional rounded edges */
+  width: 60px; /* Adjust size as needed */
+  height: 60px;
+}
+
+nav a {
+  color: #fffffff8;
+  text-decoration: none;
+  position: relative; /* Ensure pseudo-elements align properly */
+  
+}
+
+#navbutton{
+  width: 100px; /* Set a specific width */
+  height: 29px;
+  border-radius: 25px;
+  font-size: medium;
+  border:2px solid #2b2b2bf8;
+  color: #ec8e00;
+  background-color: #000000;
+}
+
+
+/* Optional: Add hover effect */
+#navbutton:hover {
+  background-color: #ec8e00; /* Change background color on hover */
+  color: rgb(255, 255, 255); /* Change text color */
+  border:2px solid #fffffff8;
+  /* Change border color on hover */
+   
+} 
+
+  nav a:hover {
+    /* Change color on hover */
+    color:#ec8e00;
+
+  }
+
+  nav a#projectso:hover::after{
+    content: " { }";
+    color: #ec8e00;
+  }
+  nav a#home:hover::after{
+    content: " { }";
+    color: #ec8e00;
+  }
+  nav a#educationo:hover::after{
+    content: " { }";
+    color: #ec8e00;
+  }
+  
+  nav a#Contactme:hover::after{
+    content: " { }";
+    color: #ec8e00;
+  }
+  
+  #name
+  {
+    color: #ec8e00f8;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    justify-content: space-between; /* Spreads content evenly */
+    padding: 20px;
+    height: 100vh; /* Full screen height */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Left Text Section */
+.hero-text {
+    flex: 1; /* Takes up one part of the available space */
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-left: 15px;
+}
+p {
+  font-weight:300;
+}
+.hero-text h2{
+  padding-left: 15px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin: 0 0 20px;
+    padding-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    padding-left: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Right Image Section */
+.hero-image {
+    flex: 1; /* Takes up one part of the available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 150px; /* Optional rounded edges */
+    
+}
+
+
+.section2-img{
+    width: 50px; /* Ensures images don't exceed their container's width */
+    height: 10px; /* Maintains the aspect ratio */
+    display: block; /* Removes any unwanted gaps (inline spacing) */
+
+}
+
+#Me{
+  color: #ec8e00;
+  
+}
+
+#Developer{
+  color: #ec8e00;
+}
+
+
+#sectionimg{ 
+  height: 60px;
+  /* background-color: #f3a600; */
+  
+  max-width: 1000px; /* Sets a maximum width for the image */
+  height: 300px; /* Maintains the aspect ratio */
+  display: inline-block; /* Aligns the image properly with text */
+  vertical-align:middle; /* Ensures it aligns vertically with text */
+  border-radius: 120px;
+  padding-left: 50px;
+  
+
+}
+
+.section2text{
+  color: #ffffff;
+  max-width: 500px; /* Sets a maximum width for the image */
+  height: auto; /* Maintains the aspect ratio */
+  display: inline-block; /* Aligns the image properly with text */
+  vertical-align: middle; /* Ensures it aligns vertically with text */
+  padding-left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.section2text p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section2{
+  background-color: #000000;
+}
+
+
+.about {
+  padding: 20px ;
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+}
+
+.about h2 {
+  color:#ec8e00;
+}
+
+.contact {
+  padding: 3rem 2rem;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form button {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact form button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+}
+
+footer p{
+  text-align: center;
+  padding: 1rem;
+  background-color:black;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* General Section Styling */
+#projects {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2b2b2b;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* Container for Project Cards */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Individual Project Card Styling */
+.project-card {
+  background-color: #fffeec;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.project-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensures the cards wrap to the next row if needed */
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+}
+
+#education {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.education-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.education-container h2 {
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.education-item {
+  background-color: #000000;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px #ec8e00;
+}
+
+.education-item h3 {
+  font-size: 1.8rem;
+  color: #ec8e00;
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.education-item strong {
+  color:#ffffff;
+}
+
+
+
