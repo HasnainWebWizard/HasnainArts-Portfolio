@@ -1,19 +1,19 @@
 
 .navbar {
-  display: flex;
-  align-items:center;
-  justify-content:space-around; 
-  padding: 1px;
-  height: 55px; 
-  position: fixed;
-    top: 0;        
-    width: 100%;   
-    background-color: #000000; 
-    color: white;  
-    z-index: 1000;  
+    display: flex;
+    align-items:center; /* Centers items vertically */
+    justify-content:space-around; /* Spreads items evenly */
+    padding: 0px;
+    height: auto; /* Set height to ensure proper vertical alignment */
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0;         /* Aligns it to the top of the page */
+    width: 100%;    /* Makes the navbar span the full width */
+    background-color: #000000; /* Background color of the navbar */
+    color: white;   /* Text color */
+    z-index: 1000;  /* Ensures the navbar is on top of other elements */
     box-shadow: 0 4px 6px chocolate;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    flex-wrap: wrap; /* Ensures the items wrap to the next line if needed */
 }
 
 
@@ -118,7 +118,7 @@ nav a {
     display: flex;
     align-items: center; /* Vertically centers content */
     justify-content: space-between; /* Spreads content evenly */
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
     height: 100vh; /* Full screen height */
     background-color: #f4f4f4; /* Light background color */
 }
